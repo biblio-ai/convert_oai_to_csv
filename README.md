@@ -1,4 +1,4 @@
-# convert
+# Convert OAI to CSV
 Convert OAI xmls files to CSV - ready for loading into a database
 
 To convert OAI xml to CSV, Zek is required
