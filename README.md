@@ -1,6 +1,5 @@
-# tranform
-transform loaded oai with AI
-
+# convert
+Convert OAI xmls files to CSV - ready for loading into a database
 
 To convert OAI xml to CSV, Zek is required
 * https://github.com/miku/zek
