@@ -110,9 +110,9 @@ func main() {
                 fmt.Print(", ")
                 fmt.Print(record_file_id)
                 fmt.Print(", ")
-                fmt.Println(url + record_file_id)
+                fmt.Println(url + ch.Metadata.Dc.Identifier + "/1/" + record_file_id)
 
-                var data = []string{ch.Header.Identifier, ch.Header.Datestamp,ch.Metadata.Dc.Identifier,record_file_id,url+record_file_id}
+                var data = []string{ch.Header.Identifier, ch.Header.Datestamp,ch.Metadata.Dc.Identifier,record_file_id,url + ch.Metadata.Dc.Identifier + "/1/"+record_file_id}
                 err := writer.Write(data)
                 if err != nil {
                   fmt.Println(err)
